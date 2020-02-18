@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="section.css">
+    <link rel="stylesheet" href="aside.css">
+    <link rel="stylesheet" href="footer.css">
+
+</head>
+<body>
+     <style>
+         .modo-grid{
+             display: grid;
+             grid-template-columns: 250px 1fr 250px;
+             grid-template-rows: repeat(4,minmax(300px,auto));
+             gap: 5px;
+         }
+         .modo-grid>div{
+             border: white solid 1px;
+             background-color: tomato;
+         }
+     </style>
+
+     <div class="modo-grid">
+         <header> 
+             <h1><video src="C:\Users\front-end\Documents\Proyecto-Reposteria-1-master\Michi recetas.mp4"></video></h1>
+            
+         </header>
+
+         <nav>
+            <ul class="lista">
+                <li> <a href="#">Inicio</a></li>
+                <li> <a href="#">Noticias</a></li>
+                <li> <a href="#">Cátalogo</a>
+                    <ul>
+                        <li>Pastelería</li>
+                        <li>Bollería</li>
+                        <li>Chocolatería</li>
+                        <li>Cocktelería</li>
+                        <li>Productos veganos</li>
+                    </ul>
+                   
+                </li>
+                <li> <a href="#">Eventos especiales</a></li>
+                <li> <a href="">Contacto</a></li>
+            </ul>
+        </nav>
+         <section>section</section>
+         <aside>aside</aside>
+         <footer>footer</footer>  
+     </div>
+    
+</body>
+</html>
