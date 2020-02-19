@@ -2,5 +2,43 @@ nav {
     grid-column: 1/2;
     grid-row: 2/4;
     background-color:#a9fffd;
+    height: 1fr 1fr 1fr;
 
+}
+
+.menu > ul{
+    list-style: none;
+    box-sizing: border-box;
+
+}
+.menu li{
+    float: none;
+    text-align: center;
+    border-right-width: 0px;
+    border-bottom: 1px solid white ;
+}
+.menu a{
+    display: block;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.menu a:hover {
+    background-color: paleturquoise;
+
+}
+
+.ocultartexto{
+    visibility: hidden;
+    display: none;
+}
+
+.modo-flex{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+   
+ 
 }
